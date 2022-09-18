@@ -1,0 +1,81 @@
+﻿FormatVersion: 7
+Name: "DJMax 6"
+Script: "DJMax"
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "87725"
+  EndTime:
+    Type: "System.Int32"
+    Value: "89369"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "16"
+  FadeTime:
+    Type: "System.Int32"
+    Value: "200"
+  Direction:
+    Type: "System.String"
+    Value: "H"
+  SpritePath:
+    Type: "System.String"
+    Value: "sb/line.png"
+  GlowPath:
+    Type: "System.String"
+    Value: "sb/line_glow.png"
+  HitcirclePath:
+    Type: "System.String"
+    Value: "sb/circle.png"
+  ApproachcirclePath:
+    Type: "System.String"
+    Value: "sb/approachcircle.png"
+  SliderBody:
+    Type: "System.String"
+    Value: "sb/circle_border.png"
+  SliderEdge:
+    Type: "System.String"
+    Value: "sb/slideredge.png"
+  StartPosition:
+    Type: "OpenTK.Vector2"
+    Value: "64,156"
+  EndPosition:
+    Type: "OpenTK.Vector2"
+    Value: "576,156"
+  BeatARTime:
+    Type: "System.Int32"
+    Value: "4"
+  BeatARFlash:
+    Type: "System.Int32"
+    Value: "2"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.5"
+  SliderScale:
+    Type: "System.Double"
+    Value: "0.5"
+  VectorScale:
+    Type: "System.Double"
+    Value: "4"
+  AngleDegrees:
+    Type: "System.Double"
+    Value: "0"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  253595205bed4eae87800b7f8ca49cef:
+    Name: "Lines"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  822236733f054fb7b2e4c7fd109039b0:
+    Name: "Sliders"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  b43eec58602949d68fb7b04461e5f34d:
+    Name: "Hitobjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

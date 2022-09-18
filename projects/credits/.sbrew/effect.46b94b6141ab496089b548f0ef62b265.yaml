@@ -1,0 +1,57 @@
+﻿FormatVersion: 7
+Name: "FakeGameplay 2"
+Script: "FakeGameplay"
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "32334"
+  EndTime:
+    Type: "System.Int32"
+    Value: "53787"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "16"
+  FadeTime:
+    Type: "System.Int32"
+    Value: "200"
+  HitcirclePath:
+    Type: "System.String"
+    Value: "sb/circle_border"
+  ApproachcirclePath:
+    Type: "System.String"
+    Value: "sb/approach_circle.png"
+  SliderBody:
+    Type: "System.String"
+    Value: "sb/circle.png"
+  SliderEdge:
+    Type: "System.String"
+    Value: "sb/circle_border.png"
+  BeatARTime:
+    Type: "System.Double"
+    Value: "2"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.9"
+  HitCircleGap:
+    Type: "System.Int32"
+    Value: "0"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  b5378f50a536485aa41888cb8d34c885:
+    Name: "SliderObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  0cfd03ba55854851b8919d916d019859:
+    Name: "HitObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  ead06ee2cad84f42a2901d2cc6fabab9:
+    Name: "ARLayer"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

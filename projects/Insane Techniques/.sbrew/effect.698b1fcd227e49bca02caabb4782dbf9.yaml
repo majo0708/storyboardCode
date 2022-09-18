@@ -1,0 +1,61 @@
+﻿FormatVersion: 7
+Name: "ShootingStars 2"
+Script: "ShootingStars"
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "115670"
+  EndTime:
+    Type: "System.Int32"
+    Value: "118958"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "8"
+  FadeTime:
+    Type: "System.Int32"
+    Value: "200"
+  HitcirclePath:
+    Type: "System.String"
+    Value: "sb/circle_border.png"
+  ApproachcirclePath:
+    Type: "System.String"
+    Value: "sb/star.png"
+  SliderBody:
+    Type: "System.String"
+    Value: "sb/star.png"
+  SliderEdge:
+    Type: "System.String"
+    Value: "sb/.png"
+  SpawnPath:
+    Type: "System.String"
+    Value: "sb/square.png"
+  ARTime:
+    Type: "System.Int32"
+    Value: "1233"
+  Position:
+    Type: "OpenTK.Vector2"
+    Value: "320,248"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.9"
+  SliderScale:
+    Type: "System.Double"
+    Value: "0.2"
+  HitCircleGap:
+    Type: "System.Int32"
+    Value: "0"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  bd36a704af024af88a7d0ed54450290a:
+    Name: "SliderObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  9b26ecc064eb4fb4aaa00513352d2c8d:
+    Name: "HitObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

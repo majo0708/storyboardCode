@@ -1,0 +1,63 @@
+﻿FormatVersion: 7
+Name: "GrayGameplay 2"
+Script: "GrayGameplay"
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "32334"
+  EndTime:
+    Type: "System.Int32"
+    Value: "53787"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "16"
+  FadeTime:
+    Type: "System.Int32"
+    Value: "200"
+  HitcirclePath:
+    Type: "System.String"
+    Value: "sb/circle_border.png"
+  ApproachcirclePath:
+    Type: "System.String"
+    Value: "sb/approach"
+  SliderBody:
+    Type: "System.String"
+    Value: "sb/circle.png"
+  SliderEdge:
+    Type: "System.String"
+    Value: "sb/circle_border.png"
+  BeatARTime:
+    Type: "System.Double"
+    Value: "2"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.9"
+  SoloColor:
+    Type: "System.Boolean"
+    Value: "True"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.5019608,0.5019608,0.5019608,1"
+  HitCircleGap:
+    Type: "System.Int32"
+    Value: "0"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  4b82e4ac29414dceac607c7024fb65e6:
+    Name: "ARLayer"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  90a0c194f7724b1caeda5df0e16c84bd:
+    Name: "SliderObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  dbd69771d4364a1ab67f0de502594468:
+    Name: "HitObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

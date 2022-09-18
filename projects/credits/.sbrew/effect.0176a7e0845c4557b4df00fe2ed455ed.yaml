@@ -1,0 +1,156 @@
+﻿FormatVersion: 7
+Name: "LyricsKala 1"
+Script: "LyricsKala"
+Config:
+  LyricsOrigin:
+    Type: "System.Int32"
+    Value: "4"
+    AllowedValues:
+      TopLeft: "0"
+      TopCentre: "1"
+      TopRight: "2"
+      CentreLeft: "3"
+      Centre: "4"
+      CentreRight: "5"
+      BottomLeft: "6"
+      BottomCentre: "7"
+      BottomRight: "8"
+  FontName:
+    Type: "System.String"
+    Value: "Perfect Dos Vga 437"
+  OutputPath:
+    Type: "System.String"
+    Value: "sb/lyrics/kala"
+  CirclePath:
+    Type: "System.String"
+    Value: "sb/circle.png"
+  StripePath:
+    Type: "System.String"
+    Value: "sb/stripe.png"
+  LeftEdgePath:
+    Type: "System.String"
+    Value: "sb/leftEdge.png"
+  RightEdgePath:
+    Type: "System.String"
+    Value: "sb/rightEdge.png"
+  LetterSpacing:
+    Type: "System.Single"
+    Value: "4"
+  LyricsFade:
+    Type: "System.Single"
+    Value: "1"
+  LinesFade:
+    Type: "System.Single"
+    Value: "0.7"
+  CirclesMinFade:
+    Type: "System.Single"
+    Value: "0.1"
+  CirclesMaxFade:
+    Type: "System.Single"
+    Value: "0.5"
+  ShowCircles:
+    Type: "System.Boolean"
+    Value: "False"
+  ShowLines:
+    Type: "System.Boolean"
+    Value: "False"
+  MinCircleAmount:
+    Type: "System.Single"
+    Value: "3"
+  MaxCircleAmount:
+    Type: "System.Single"
+    Value: "6"
+  CircleMinScale:
+    Type: "System.Single"
+    Value: "0.5"
+  CircleMaxScale:
+    Type: "System.Single"
+    Value: "1.5"
+  RandomRotate:
+    Type: "System.Boolean"
+    Value: "False"
+  CircleMinRotation:
+    Type: "System.Double"
+    Value: "0"
+  CircleMaxRotation:
+    Type: "System.Double"
+    Value: "1"
+  FontSize:
+    Type: "System.Int32"
+    Value: "26"
+  FontScale:
+    Type: "System.Single"
+    Value: "0.5"
+  FontColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  FontStyle:
+    Type: "System.Int32"
+    Value: "0"
+    AllowedValues:
+      Regular: "0"
+      Bold: "1"
+      Italic: "2"
+      Underline: "4"
+      Strikeout: "8"
+  GlowRadius:
+    Type: "System.Int32"
+    Value: "0"
+  GlowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  AdditiveGlow:
+    Type: "System.Boolean"
+    Value: "False"
+  OutlineThickness:
+    Type: "System.Int32"
+    Value: "0"
+  OutlineColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.1960784,0.1960784,0.1960784,0.7843137"
+  ShadowThickness:
+    Type: "System.Int32"
+    Value: "0"
+  ShadowColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,0.7843137"
+  Padding:
+    Type: "OpenTK.Vector2"
+    Value: "0,0"
+  TrimTransparency:
+    Type: "System.Boolean"
+    Value: "False"
+  EffectsOnly:
+    Type: "System.Boolean"
+    Value: "False"
+  Debug:
+    Type: "System.Boolean"
+    Value: "False"
+  Additive:
+    Type: "System.Boolean"
+    Value: "False"
+  LinesColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,1,1,1"
+  CirclesColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  RandomLyricsColor:
+    Type: "System.Boolean"
+    Value: "False"
+  MinLyricsColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  MaxLyricsColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  c4f2d9a3696244c6990949b8779b3bd7:
+    Name: "Lyrics"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

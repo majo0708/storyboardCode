@@ -1,0 +1,35 @@
+﻿FormatVersion: 7
+Name: "Flash 1"
+Script: "Flash"
+Config:
+  EndTime:
+    Type: "System.Int32"
+    Value: "89369"
+  ImagePath:
+    Type: "System.String"
+    Value: "sb/Faster.png"
+  Flashes:
+    Type: "System.Int32"
+    Value: "4"
+  BeatMultiplier:
+    Type: "System.Int32"
+    Value: "2"
+  FadeTime:
+    Type: "System.Int32"
+    Value: "200"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.5"
+  Position:
+    Type: "OpenTK.Vector2"
+    Value: "448,345"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  09b07e0c033840bab0e48241867a32d7:
+    Name: ""
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

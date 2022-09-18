@@ -1,0 +1,14 @@
+﻿FormatVersion: 6
+Name: "A 1"
+Script: "A"
+Config:
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  28dc0e4822dd4cc0ac95bb3e0ad00fbf:
+    Name: "Main"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes

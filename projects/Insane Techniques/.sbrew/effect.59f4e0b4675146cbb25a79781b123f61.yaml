@@ -1,0 +1,35 @@
+﻿FormatVersion: 7
+Name: "Background 12"
+Script: "Background"
+Config:
+  BackgroundPath:
+    Type: "System.String"
+    Value: "insane_light.png"
+  StartTime:
+    Type: "System.Int32"
+    Value: "120601"
+  EndTime:
+    Type: "System.Int32"
+    Value: "122245"
+  FadeEndTime:
+    Type: "System.Int32"
+    Value: "200"
+  FadeStartTime:
+    Type: "System.Int32"
+    Value: "0"
+  OpacityStart:
+    Type: "System.Double"
+    Value: "0"
+  OpacityEnd:
+    Type: "System.Double"
+    Value: "1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  5606a83fa43149b1bd87ffb789c0bcdb:
+    Name: ""
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

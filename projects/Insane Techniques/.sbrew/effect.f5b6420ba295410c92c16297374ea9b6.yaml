@@ -1,0 +1,41 @@
+﻿FormatVersion: 7
+Name: "Countdown 18"
+Script: "Countdown"
+Config:
+  EndTime:
+    Type: "System.Int32"
+    Value: "66355"
+  FolderPath:
+    Type: "System.String"
+    Value: "sb/count"
+  ImageType:
+    Type: "System.String"
+    Value: ".png"
+  Amount:
+    Type: "System.Int32"
+    Value: "3"
+  BeatMultiplier:
+    Type: "System.Int32"
+    Value: "1"
+  FadeTime:
+    Type: "System.Int32"
+    Value: "200"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.5"
+  Position:
+    Type: "OpenTK.Vector2"
+    Value: "335,150"
+  NewColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  6988d2692f904e2c94713c0e66b08d15:
+    Name: ""
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

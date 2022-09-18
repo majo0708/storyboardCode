@@ -1,0 +1,14 @@
+﻿FormatVersion: 7
+Name: "TextManual 1"
+Script: "TextManual"
+Config:
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  0c245d0ebb7b467e9d6d470689685264:
+    Name: ""
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

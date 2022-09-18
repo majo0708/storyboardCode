@@ -1,0 +1,35 @@
+﻿FormatVersion: 7
+Name: "Background 4"
+Script: "Background"
+Config:
+  BackgroundPath:
+    Type: "System.String"
+    Value: "insane_dim.png"
+  StartTime:
+    Type: "System.Int32"
+    Value: "84437"
+  EndTime:
+    Type: "System.Int32"
+    Value: "85259"
+  FadeEndTime:
+    Type: "System.Int32"
+    Value: "0"
+  FadeStartTime:
+    Type: "System.Int32"
+    Value: "1750"
+  OpacityStart:
+    Type: "System.Double"
+    Value: "1"
+  OpacityEnd:
+    Type: "System.Double"
+    Value: "1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  8fee65db057848518a296c7417912228:
+    Name: ""
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

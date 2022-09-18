@@ -1,0 +1,14 @@
+﻿FormatVersion: 7
+Name: "SplitLineManual 1"
+Script: "SplitLineManual"
+Config:
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  f74d929ff3454f2c8d6493d17c903cdb:
+    Name: ""
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

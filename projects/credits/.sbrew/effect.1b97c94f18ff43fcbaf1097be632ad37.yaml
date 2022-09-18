@@ -1,0 +1,35 @@
+﻿FormatVersion: 7
+Name: "Background 1"
+Script: "Background"
+Config:
+  BackgroundPath:
+    Type: "System.String"
+    Value: "aaa.png"
+  StartTime:
+    Type: "System.Int32"
+    Value: "156"
+  EndTime:
+    Type: "System.Int32"
+    Value: "10882"
+  FadeEndTime:
+    Type: "System.Int32"
+    Value: "156"
+  FadeStartTime:
+    Type: "System.Int32"
+    Value: "156"
+  OpacityStart:
+    Type: "System.Double"
+    Value: "1"
+  OpacityEnd:
+    Type: "System.Double"
+    Value: "1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  9cb9fc5e76d740c4a8d8cbea7e9994ea:
+    Name: ""
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

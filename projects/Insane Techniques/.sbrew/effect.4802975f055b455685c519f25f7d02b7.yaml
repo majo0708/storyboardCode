@@ -1,0 +1,41 @@
+﻿FormatVersion: 7
+Name: "Countdown 9"
+Script: "Countdown"
+Config:
+  EndTime:
+    Type: "System.Int32"
+    Value: "104163"
+  FolderPath:
+    Type: "System.String"
+    Value: "sb/count"
+  ImageType:
+    Type: "System.String"
+    Value: ".png"
+  Amount:
+    Type: "System.Int32"
+    Value: "2"
+  BeatMultiplier:
+    Type: "System.Int32"
+    Value: "1"
+  FadeTime:
+    Type: "System.Int32"
+    Value: "200"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "1"
+  Position:
+    Type: "OpenTK.Vector2"
+    Value: "320,248"
+  NewColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  80ae7ee11cb04d2884779b5ea730a493:
+    Name: ""
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

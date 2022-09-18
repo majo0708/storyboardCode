@@ -1,0 +1,61 @@
+﻿FormatVersion: 7
+Name: "Stutter 4"
+Script: "Stutter"
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "43341"
+  EndTime:
+    Type: "System.Int32"
+    Value: "45396"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "16"
+  BeatStutter:
+    Type: "System.Int32"
+    Value: "4"
+  FadeTime:
+    Type: "System.Int32"
+    Value: "200"
+  HitcirclePath:
+    Type: "System.String"
+    Value: "sb/circle_border.png"
+  ApproachcirclePath:
+    Type: "System.String"
+    Value: "sb/circle_border.png"
+  SliderBody:
+    Type: "System.String"
+    Value: "sb/circle.png"
+  SliderEdge:
+    Type: "System.String"
+    Value: "sb/circle_boder.png"
+  ARTime:
+    Type: "System.Int32"
+    Value: "450"
+  BeatARTime:
+    Type: "System.Int32"
+    Value: "2"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.9"
+  SliderScale:
+    Type: "System.Double"
+    Value: "0.5"
+  HitCircleGap:
+    Type: "System.Int32"
+    Value: "0"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  7e8ad50a633c435e8cbd6d6d6a591320:
+    Name: "SliderObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  1ed3baddd43445ad8ab75dc52f6ebc91:
+    Name: "HitObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
