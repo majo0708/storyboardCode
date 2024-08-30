@@ -1,0 +1,56 @@
+﻿FormatVersion: 7
+Name: "LollyManual 1"
+Script: "LollyManual"
+Multithreaded: No
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "117381"
+    DisplayName: "Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "126624"
+    DisplayName: "End Time"
+  HitcirclePath:
+    Type: "System.String"
+    Value: "sb/circle.png"
+    DisplayName: "Hitcircle Path"
+  HitPath:
+    Type: "System.String"
+    Value: "sb/circle.png"
+    DisplayName: "Hit Path"
+  LightSpritePath:
+    Type: "System.String"
+    Value: "sb/circle_border.png"
+    DisplayName: "Light Sprite Path"
+  BeatARTime:
+    Type: "System.Double"
+    Value: "2"
+    DisplayName: "Beat AR Time"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.3"
+    DisplayName: "Sprite Scale"
+  SoloColor:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "Solo Color"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "1,1,1,1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  d938eca06cd74e0498cee7819fa44611:
+    Name: "LollyLayer"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  98a3918bd59e495a888f1ba55b451413:
+    Name: "HitObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

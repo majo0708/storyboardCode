@@ -1,0 +1,71 @@
+﻿FormatVersion: 7
+Name: "Flashlight 1"
+Script: "Flashlight"
+Multithreaded: No
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "293813"
+    DisplayName: "Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "295116"
+    DisplayName: "End Time"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "8"
+    DisplayName: "Beat Divisor"
+  StartFadeTime:
+    Type: "System.Int32"
+    Value: "648"
+    DisplayName: "Start Fade Time"
+  EndFadeTime:
+    Type: "System.Int32"
+    Value: "81"
+    DisplayName: "End Fade Time"
+  StartPos:
+    Type: "OpenTK.Vector2"
+    Value: "360,240"
+    DisplayName: "Start Pos"
+  ProperFade:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "Proper Fade"
+  Offset:
+    Type: "System.Double"
+    Value: "0"
+  SpotlightPath:
+    Type: "System.String"
+    Value: "sb/spotlight.png"
+    DisplayName: "Spotlight Path"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "2"
+    DisplayName: "Sprite Scale"
+  Opacity:
+    Type: "System.Double"
+    Value: "0.9"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  1162be8890134e0c939e21fb201490d8:
+    Name: "ARLayer"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  61288015ccc44c5a923701a60578f360:
+    Name: "HitObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  5e59f321b8f74adfb2a1f53298d357e4:
+    Name: "SliderObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

@@ -1,0 +1,85 @@
+﻿FormatVersion: 7
+Name: "Spotlight 1"
+Script: "Spotlight"
+Multithreaded: No
+Config:
+  Mode:
+    Type: "System.String"
+    Value: "Scroll"
+  StartTime:
+    Type: "System.Int32"
+    Value: "231543"
+    DisplayName: "Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "241922"
+    DisplayName: "End Time"
+  MoveIn:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Move In"
+  MoveOut:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Move Out"
+  SpritePath:
+    Type: "System.String"
+    Value: "sb\\spotlight2.png"
+    DisplayName: "Sprite Path"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "1.5"
+    DisplayName: "Sprite Scale"
+  Rotation:
+    Type: "System.Single"
+    Value: "0"
+  xSpace:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "x Space"
+  ySpace:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "y Space"
+  xOffset:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "x Offset"
+  yOffset:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "y Offset"
+  offScreen1:
+    Type: "OpenTK.Vector2"
+    Value: "0,0"
+    DisplayName: "off Screen 1"
+  onScreen1:
+    Type: "OpenTK.Vector2"
+    Value: "-400,240"
+    DisplayName: "on Screen 1"
+  onScreen2:
+    Type: "OpenTK.Vector2"
+    Value: "1000,240"
+    DisplayName: "on Screen 2"
+  offScreen2:
+    Type: "OpenTK.Vector2"
+    Value: "0,0"
+    DisplayName: "off Screen 2"
+  ComboColor:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "Combo Color"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0,0,0,1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  865acb85167a4bc688a38f9c5234af7c:
+    Name: "Cover"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
