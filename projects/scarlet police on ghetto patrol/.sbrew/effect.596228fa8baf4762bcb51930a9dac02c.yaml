@@ -1,0 +1,128 @@
+﻿FormatVersion: 7
+Name: "GrayGameplay 4"
+Script: "GrayGameplay"
+Multithreaded: No
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "90211"
+    DisplayName: "Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "102586"
+    DisplayName: "End Time"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "32"
+    DisplayName: "Beat Divisor"
+  FadeTime:
+    Type: "System.Int32"
+    Value: "200"
+    DisplayName: "Fade Time"
+  HitcirclePath:
+    Type: "System.String"
+    Value: "hitcircle.png"
+    DisplayName: "Hitcircle Path"
+  HitcircleOverlayPath:
+    Type: "System.String"
+    Value: "hitcircleoverlay.png"
+    DisplayName: "Hitcircle Overlay Path"
+  ApproachcirclePath:
+    Type: "System.String"
+    Value: "approachcircle.png"
+    DisplayName: "Approachcircle Path"
+  SliderBody:
+    Type: "System.String"
+    Value: "sb/circle.png"
+    DisplayName: "Slider Body"
+  SliderBodyFade:
+    Type: "System.Double"
+    Value: "0.07"
+    DisplayName: "Slider Body Fade"
+  SliderEdge:
+    Type: "System.String"
+    Value: ""
+    DisplayName: "Slider Edge"
+  SliderBall:
+    Type: "System.String"
+    Value: "sb/donut.png"
+    DisplayName: "Slider Ball"
+  SliderTick:
+    Type: "System.String"
+    Value: "sb/slidertick .png"
+    DisplayName: "Slider Tick"
+  SliderTickRate:
+    Type: "System.Double"
+    Value: "0.5"
+    DisplayName: "Slider Tick Rate"
+  SliderEnd:
+    Type: "System.String"
+    Value: "sb/clock_hand.png"
+    DisplayName: "Slider End"
+  SliderEndToggle:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "Slider End Toggle"
+  Reverse:
+    Type: "System.String"
+    Value: "reversearrow.png"
+  BeatARTime:
+    Type: "System.Double"
+    Value: "1.5"
+    DisplayName: "Beat AR Time"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.6"
+    DisplayName: "Sprite Scale"
+  SliderSpriteScale:
+    Type: "System.Double"
+    Value: "0.9"
+    DisplayName: "Slider Sprite Scale"
+  SoloColor:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "Solo Color"
+  STickColor:
+    Type: "System.Boolean"
+    Value: "True"
+    DisplayName: "S Tick Color"
+  SBallColor:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "S Ball Color"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.5019608,0.5019608,0.5019608,1"
+  SliderColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.5019608,0.5019608,0.5019608,1"
+    DisplayName: "Slider Color"
+  BallColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.5019608,0.5019608,0.5019608,1"
+    DisplayName: "Ball Color"
+  HitCircleGap:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Hit Circle Gap"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  ea951d7967494061a6e9f83c0b771abe:
+    Name: "SliderObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  05db7c691f234a9b928a8ae2130be23b:
+    Name: "HitObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  ce70786cc2124aadafb8202d60f3a397:
+    Name: "ARLayer"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

@@ -1,0 +1,41 @@
+﻿FormatVersion: 7
+Name: "Background 5"
+Script: "Background"
+Multithreaded: No
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "-1800"
+    DisplayName: "Start Time"
+    BeginsGroup: "Timing"
+  EndTime:
+    Type: "System.Int32"
+    Value: "108656"
+    DisplayName: "End Time"
+  StartFade:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Start Fade"
+  EndFade:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "End Fade"
+  SpritePath:
+    Type: "System.String"
+    Value: "sb\\black.png"
+    DisplayName: "Sprite Path"
+    BeginsGroup: "Sprite"
+  Opacity:
+    Type: "System.Double"
+    Value: "1"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  714cf8fd787845c8a884ef51b7dab3a6:
+    Name: ""
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes

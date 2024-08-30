@@ -1,0 +1,110 @@
+﻿FormatVersion: 7
+Name: "EditorTimeline 1"
+Script: "EditorTimeline"
+Multithreaded: No
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "72492"
+    DisplayName: "Start Time"
+  EndTime:
+    Type: "System.Int32"
+    Value: "83649"
+    DisplayName: "End Time"
+  SliderDivisor:
+    Type: "System.Int32"
+    Value: "8"
+    DisplayName: "Slider Divisor"
+  TimelineDivisor:
+    Type: "System.Int32"
+    Value: "4"
+    DisplayName: "Timeline Divisor"
+  FadeTime:
+    Type: "System.Int32"
+    Value: "200"
+    DisplayName: "Fade Time"
+  BeatARTime:
+    Type: "System.Double"
+    Value: "3"
+    DisplayName: "Beat AR Time"
+  TimelinePath:
+    Type: "System.String"
+    Value: "sb/square.png"
+    DisplayName: "Timeline Path"
+  HitAreaPath:
+    Type: "System.String"
+    Value: "sb/circle.png"
+    DisplayName: "Hit Area Path"
+  HitcirclePath:
+    Type: "System.String"
+    Value: "hitcircle.png"
+    DisplayName: "Hitcircle Path"
+  HitcircleOverlayPath:
+    Type: "System.String"
+    Value: "hitcircleoverlay.png"
+    DisplayName: "Hitcircle Overlay Path"
+  SliderBody:
+    Type: "System.String"
+    Value: "sb/circle.png"
+    DisplayName: "Slider Body"
+  TStartPos:
+    Type: "OpenTK.Vector2"
+    Value: "720,248"
+    DisplayName: "T Start Pos"
+  TEndPos:
+    Type: "OpenTK.Vector2"
+    Value: "320,248"
+    DisplayName: "T End Pos"
+  SpriteScale:
+    Type: "System.Double"
+    Value: "0.5"
+    DisplayName: "Sprite Scale"
+  SliderSpriteScale:
+    Type: "System.Double"
+    Value: "0.5"
+    DisplayName: "Slider Sprite Scale"
+  SliderBodyFade:
+    Type: "System.Double"
+    Value: "1"
+    DisplayName: "Slider Body Fade"
+  SoloColor:
+    Type: "System.Boolean"
+    Value: "False"
+    DisplayName: "Solo Color"
+  STickColor:
+    Type: "System.Boolean"
+    Value: "True"
+    DisplayName: "S Tick Color"
+  Color:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.5019608,0.5019608,0.5019608,1"
+  SliderColor:
+    Type: "OpenTK.Graphics.Color4"
+    Value: "0.5019608,0.5019608,0.5019608,1"
+    DisplayName: "Slider Color"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  1de814051a6e4652b92fc3cfe77a6ae4:
+    Name: "TimelineObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  1df8cf501445475b9d016c7f87f1379f:
+    Name: "SliderObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  3df46ffe2c8e4e4db097116b5f611ae5:
+    Name: "HitObjects"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
+  50cd4d0b9991415ea445abe659a8d0ee:
+    Name: "ARLayer"
+    OsbLayer: Overlay
+    DiffSpecific: No
+    Visible: Yes
